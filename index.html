@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Katlego</title>
+    <meta name="description" content="Explore South Africa, One Province At A Time" />
+    <meta name="author" content="Katlego's Tours" />
+
+    <meta property="og:title" content="Katlego's Tours" />
+    <meta property="og:description" content="Explore South Africa, One Province At A Time" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="images/Logo.jpg" />
+   
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo">
+          <a href="#home"><img src="images/Logo.jpg" alt="Katlego Tours" /></a>
+        </div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="menu-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h1>Welcome to Katlego's Tours</h1>
+        <p>Explore South Africa, One Province At A Time</p>
+        <a href="#products" class="btn">Shop Now</a>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <h2>About Us</h2>
+      <p>Join us on an unforgettable journey through South Africa, a land of breathtaking beauty, vibrant culture, and incredible wildlife. Our expert guides will take you on authentic cultural experiences, unparalleled wildlife encounters, and breathtaking scenic routes, showcasing the country's stunning landscapes and rich heritage. We're passionate about sharing the wonders of South Africa while promoting sustainable tourism and supporting local communities. Come and discover the magic of the Rainbow Nation with us!</p>
+      <div class="slider">
+        <div class="slides">
+            <img src="images/JHB.jpg" alt="Gauteng" />
+            <img src="images/CPT.jpg" alt="Cape Town" />
+            <img src="images/DBN.jpg" alt="Durban" />
+            <img src="images/PE.jpg" alt="Gqeberha" />
+            <img src="images/MPL.jpg" alt="Mpumalanga" />
+            <img src="images/MAG.jpg" alt="Makgaliesburg" />
+        </div>
+     </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+      <h2>Our Products</h2>
+      <div class="product-grid">
+        <!-- Product 1 -->
+        <div class="product-card">
+          <img src="images/JHB.jpg" alt="Package 1" />
+          <h3>Gauteng - Johannesburg</h3>
+          <p>Johannesburg is a vibrant metropolis that blends rich history, diverse culture, and modern sophistication, offering a unique fusion of urban excitement and African charm.</p>
+          <p>from R500</p>
+          <button>Add to Cart</button>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="product-card">
+          <img src="images/CPT.jpg" alt="Package 2" />
+          <h3>Cape Town</h3>
+          <p>Cape Town is a stunning coastal city nestled between majestic mountains and the Atlantic Ocean, offering breathtaking landscapes, vibrant culture, and unforgettable experiences.</p>
+          <p>from R700</p>
+          <button>Add to Cart</button>
+        </div>
+        <!-- Product 3 -->
+        <div class="product-card">
+          <img src="images/DBN.jpg" alt="Package 3" />
+          <h3>Durban</h3>
+          <p>Durban is a vibrant coastal city with a rich cultural heritage, known for its stunning beaches, warm subtropical climate, and mouth-watering Indian cuisine, offering a unique blend of African, Indian, and colonial influences.</p>
+          <p>from R650</p>  
+          <button>Add to Cart</button>
+        </div>
+        <!-- Product 4 -->
+        <div class="product-card">
+          <img src="images/PE.jpg" alt="Package 4" />
+          <h3>Gqeberha</h3>
+          <p>Gqeberha (Port Elizabeth) is a charming coastal city on South Africa's Sunshine Coast, known for its stunning beaches, scenic coastal drives, and warm hospitality, perfect for outdoor enthusiasts and nature lovers.</p>
+          <p>from R480</p>
+          <button>Add to Cart</button>
+        </div>
+        <!-- Product 5 -->
+        <div class="product-card">
+          <img src="images/MPL.jpg" alt="Package 5" />
+          <h3>Mpumalanga</h3>
+          <p>Mpumalanga is a province of breathtaking natural beauty, featuring the stunning panoramas of the Drakensberg Mountains, the wildlife-rich Kruger National Park, and picturesque waterfalls, offering endless opportunities for outdoor adventure and exploration.</p>
+          <p>from R400</p>
+          <button>Add to Cart</button>
+        </div>
+        <!-- Product 6 -->
+        <div class="product-card">
+          <img src="images/MAG.jpg" alt="Package 6" />
+          <h3>Makgaliesburg</h3>
+          <p>The Magaliesberg is a scenic mountain range near Johannesburg, offering breathtaking views, outdoor adventures, and a tranquil escape from the city, with opportunities for hiking, horse riding, and exploring the region's rich history and culture.</p>
+          <p>from R560</p>
+          <button>Add to Cart</button>
+    </div>         
+
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <h2>Contact Us</h2>
+      <form action="#" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; Katlego 2025. All rights reserved.</p>
+     </footer>
+    
+    <script src="script.js"></script>
+
+
+  </body>
+</html>
